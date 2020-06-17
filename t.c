@@ -10,14 +10,14 @@ PROC *sleepList;
 #include "queue.c" // include queue.c file
 int body();
 int kexit();
-int kwakeup();
-int ksleep();
+// int kwakeup();
+// int ksleep();
 void des_free_children(PROC *p);
 void tswitch();
 int event();
 void showChild();
 void enter_child();
-int kwait();
+// int kwait();
 
 
 /*******************************************************
